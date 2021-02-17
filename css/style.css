@@ -29,6 +29,14 @@ body {
     font-size: 16px;
 }
 
+.blue-text {
+    color: #33475b;
+}
+
+.padding-block {
+    padding: 35px 0;
+}
+
 /* Clearfix and cols generiche */
 
 .clearfix::after {
@@ -108,5 +116,39 @@ header .nav-bottom .text-right {
     display: inline-block;
     width: 91%;
     vertical-align: middle;
-    padding: ;
+}
+
+/* Jumbotron */
+
+header .jumbotron {
+    background-image: url(../img/jumbotron.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 100% 12%;
+    background-color: #fef5ef;
+    /* test, da togliere quando abbiamo i margini corretti del testo al suo interno */
+    /* height: 600px; */
+}
+
+header .teaser {
+    width: 49%;
+    height: 600px;
+}
+
+header h1 {
+    padding-top: 12%;
+    font-size: 60px;
+}
+
+header p {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+header .jumbotron-button .button {
+    padding: 25px 45px;
+}
+
+header .teaser span{
+    margin-bottom: 20px;
 }
