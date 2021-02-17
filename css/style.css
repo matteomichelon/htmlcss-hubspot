@@ -152,3 +152,12 @@ header .jumbotron-button .button {
 header .teaser span{
     margin-bottom: 20px;
 }
+
+/* Line Spacing */
+
+.line-spacing{
+    height: 100px;
+    background-color: #afebe4;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
