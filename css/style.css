@@ -43,10 +43,26 @@ body {
 
 /* HEADER */
 
+/* Header-Common */
+
+header .padding {
+    padding: 20px 0;
+}
+
+header a {
+    color: #32495b;
+    text-decoration: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Nav-top */
+
 header .nav-top {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
-    padding: 20px 0;
 }
 
 header .left {
@@ -55,7 +71,6 @@ header .left {
 
 header .right {
     width: 80%;
-    text-align: right;
 }
 
 header nav li {
@@ -66,13 +81,8 @@ header nav .left li {
     margin-right: 20px;
 }
 
-header nav .right li {
+header nav .right li, header .nav-bottom nav li {
     margin-left: 20px;
-}
-
-header a {
-    color: #32495b;
-    text-decoration: none;
 }
 
 header .right .login {
@@ -84,4 +94,19 @@ header .right .login {
 header .border-right {
     border-right: 1px solid #899397;
     padding-right: 20px;
+}
+
+/* Nav-bottom */
+
+header .logo {
+    width: 8%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .nav-bottom .text-right {
+    display: inline-block;
+    width: 91%;
+    vertical-align: middle;
+    padding: ;
 }
