@@ -43,7 +43,7 @@ body {
     padding: 35px 0;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
@@ -53,14 +53,14 @@ body {
 
 .text-block {
     line-height: 35px;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .margin-bottom-block {
     margin-bottom: 60px;
 }
 
-.margin-block{
+.margin-block {
     margin: 20px 0;
 }
 
@@ -196,29 +196,23 @@ header .teaser span {
 
 /* Common Main */
 
-main ul li{
+main ul li {
     list-style: none;
 }
-
 
 main ul li i {
     color: #fe775a;
     padding-right: 15px;
 }
 
-
-
-/* Section 1 */
-
-/* Benefit */
+/* Section 1 Benefit  */
 
 main .benefit {
     background-color: #f4f9fd;
 }
 
-main .benefit .container50 img {
+.benefit .container50 img {
     width: 50%;
-    margin-top: 0 auto;
 }
 
 /* Feature */
@@ -270,18 +264,78 @@ main .benefit .container50 img {
     margin: 0 5%;
 }
 
-.benefit-colums img{
+.benefit-colums img {
     height: 100px;
 }
 
 /* TODO: capire se è possibile farlo con after e copiare quella nel crm-right */
-.benefit-colums .line{
+
+.benefit-colums .line {
     width: 100%;
     height: 10px;
     display: inline-block;
     border-bottom: 3px solid #899397;
 }
 
-.benefit .button{
+.benefit .button {
     margin: 0px 80px;
+}
+
+/* Section 2 Result */
+
+/* Title */
+
+main .result {
+    background-color: #00b8ab;
+    color: white;
+    /* test */
+    padding: 30px 0 100px 0;
+}
+
+main .result h2 {
+    font-size: 48px;
+}
+
+/* Grid top */
+
+.result .grid-top .col, .result .grid-bottom .col {
+    width: 25%;
+    padding: 3%;
+}
+
+.result .grid-top .col {
+    border-bottom: 1px solid white;
+}
+
+.grid-top .col:nth-child(2), .grid-bottom .col:nth-child(2) {
+    border-left: 1px solid white;
+}
+
+.grid-top .col:nth-child(3), .grid-bottom .col:nth-child(3) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.result img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.result .number {
+    font-size: 53px;
+    font-weight: 900;
+}
+
+.result .number:after {
+    content: "+";
+    font-size: 34px;
+    font-weight: normal;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.result span {
+    font-size: 15px;
+    margin-top: 15px;
+    display: inline-block;
 }
