@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- TODO: elimina float header-top + BONUS: header-top:posizion fixed -->
+    <!-- TODO: elimina float header-top + BONUS: header-top:posizion fixed + color white come propritaà e non come background in nav-bottom -->
     <!-- HEADER -->
     <header>
         <!-- Nav top -->
@@ -154,31 +154,139 @@
                 <div class="feature">
 
                     <!-- Crm -->
-                    <div class="crm">
-                        <div class="crm-logo text-centered">
-                            <img class="margin-block" src="img/crm-Illustration.svg" alt="Open Book">
-                            <div>
-                                <a class="button" href="#">Learn More</a>
+                    <div class="crm color-white">
+                        <div class="clearfix">
+                            <div class="col left">
+                                <div class="crm-logo text-centered">
+                                    <img class="margin-bottom-block" src="img/crm-Illustration.svg" alt="Open Book">
+                                    <div>
+                                        <a class="button" href="#">Learn More</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="crm-report">
-                            <h2>Free HubSpot CRM</h2>
-                            <p class="padding-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius harum similique quis odio unde, quos veniam ipsa, dicta aliquam porro! Quae, distinctio. Nesciunt explicabo qui repudiandae? Libero, dolorem ullam?</p>
-                            <h3>popolar feature <span>questa è la riga</span></h3>
-                            <ul class="padding-block">
-                                <li>Contact Insight</li>
-                                <li>Deals</li>
-                                <li>Task</li>
-                            </ul>                           
+                            <div class="col right">
+                                <div class="crm-report">
+                                    <h2>Free HubSpot CRM</h2>
+                                    <p class="padding-block text-block">Everything you need to organize, track, and
+                                        build better relationships with leads and<br>cutomers. Yes, it's 100% free.
+                                        Forever. </p>
+                                    <h3>popolar feature <span class="line"></span></h3>
+                                    <ul class="padding-block text-block ">
+                                        <!-- TODO: trova un modo più elegante per distanziare i pallini -->
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Contact Insight
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Contact Insight
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Contact Insight
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <!-- end Crm -->
 
+                    <!-- Benefit colums -->
+                    <div class="benefit-colums text-centered padding-block">
+                        <div class="clearfix">
+
+                            <!-- Column Left -->
+                            <div class="col color-white">
+                                <img class="margin-block" src="img/marketing-hub-free.svg"
+                                    alt="Balloons come out of the box">
+                                <h2 class="margin-bottom-block">Marketing Hub</h2>
+                                <p class="text-block margin-bottom-block">Marketing software to help you grow traffic,
+                                    convert more
+                                    visitors, and run complete
+                                    inbound marketing campaigns at scale</p>
+                                <div class="line margin-bottom-block"></div>
+                                <h3 class="margin-bottom-block">popular feature</h3>
+                                <ul class="margin-bottom-block">
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Lead Generation
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Marketing Automation
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Analytics
+                                    </li>
+                                </ul>
+                                <div class="button">Learn More</div>
+                            </div>
+                            <!-- end Column Left -->
+
+                            <!-- Column center -->
+                            <div class="col color-white">
+                                <img class="margin-block" src="img/sales-professional-illustration.svg"
+                                    alt="Businessman material">
+                                <h2 class="margin-bottom-block">Sales Hub</h2>
+                                <p class="text-block margin-bottom-block">Time-saving sales software that helps you get
+                                    deeper insights into prospects, automate the tasks you hate, and close moder deals
+                                    faster</p>
+                                <div class="line margin-bottom-block"></div>
+                                <h3 class="margin-bottom-block">popular feature</h3>
+                                <ul class="margin-bottom-block">
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Email Tracking
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Meeting Scheduling
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Email Automation
+                                    </li>
+                                </ul>
+                                <div class="button">Learn More</div>
+                            </div>
+                            <!-- end Column center -->
+
+                            <!-- Column right -->
+                            <div class="col color-white">
+                                <img class="margin-block" src="img/service-hub-illustration.svg" alt="Service material">
+                                <h2 class="margin-bottom-block">Service Hub</h2>
+                                <p class="text-block margin-bottom-block">Customer service software to help you connect
+                                    with customers,exceed expectations, and turn them into promoters that grow business.
+                                </p>
+                                <div class="line margin-bottom-block"></div>
+                                <h3 class="margin-bottom-block">popular feature</h3>
+                                <ul class="margin-bottom-block">
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Tickets
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Customer Feedback
+                                    </li>
+                                    <li class="text-left">
+                                        <i class="fas fa-check-circle"></i>
+                                        Knowledge Base
+                                    </li>
+                                </ul>
+                                <div class="button">Learn More</div>
+                            </div>
+                            <!-- end Column right -->
+
+                        </div>
+                    </div>
+                    <!-- end Benefit colums -->
                 </div>
             </div>
             <!-- end Rectangle -->
-
-
         </section>
         <!-- end Section 1 Benefit -->
 

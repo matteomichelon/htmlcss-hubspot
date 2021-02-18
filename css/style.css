@@ -43,6 +43,10 @@ body {
     padding: 35px 0;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -52,8 +56,16 @@ body {
     font-size: 18px;
 }
 
-.margin-block {
-    margin-bottom: 40px;
+.margin-bottom-block {
+    margin-bottom: 60px;
+}
+
+.margin-block{
+    margin: 20px 0;
+}
+
+.color-white {
+    background-color: white;
 }
 
 /* Clearfix and cols generiche */
@@ -182,6 +194,20 @@ header .teaser span {
 
 /* MAIN */
 
+/* Common Main */
+
+main ul li{
+    list-style: none;
+}
+
+
+main ul li i {
+    color: #fe775a;
+    padding-right: 15px;
+}
+
+
+
 /* Section 1 */
 
 /* Benefit */
@@ -197,32 +223,65 @@ main .benefit .container50 img {
 
 /* Feature */
 
-main .feature {
-    background-color: white;
-}
-
 /* Crm */
 
-main .crm-logo {
-    width: 25%;
-    padding: 70px 0;
+.feature .crm {
+    padding: 5%;
+}
+
+.feature .crm .left {
+    width: 20%;
+}
+
+.feature .crm .right {
+    width: 80%;
+    padding-left: 9%;
+}
+
+.feature .crm-report li {
     display: inline-block;
 }
 
-main .crm-logo img {
-    width: 40%;
+.feature .crm-logo img {
+    width: 65%;
 }
 
-main .crm-report {
-    width: 70%;
+.feature h3 {
+    text-transform: uppercase;
+}
+
+.feature .crm .right .line {
+    /* TODO: capire se è possibile farlo con :after */
+    width: 60%;
+    height: 10px;
     display: inline-block;
-
-    /* test */
-
-    border: 1px solid black;
+    margin-left: 100px;
+    border-bottom: 3px solid #899397;
 }
 
-main .crm-report li{
+/* Benefit colums */
+
+.benefit-colums .col {
+    width: 30%;
+    padding: 2% 4%;
+}
+
+.benefit-colums .col:nth-child(2) {
+    margin: 0 5%;
+}
+
+.benefit-colums img{
+    height: 100px;
+}
+
+/* TODO: capire se è possibile farlo con after e copiare quella nel crm-right */
+.benefit-colums .line{
+    width: 100%;
+    height: 10px;
     display: inline-block;
+    border-bottom: 3px solid #899397;
 }
 
+.benefit .button{
+    margin: 0px 80px;
+}
