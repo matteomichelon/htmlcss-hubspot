@@ -288,7 +288,6 @@ main .benefit {
 main .result {
     background-color: #00b8ab;
     color: white;
-    /* test */
     padding: 30px 0 100px 0;
 }
 
@@ -296,7 +295,7 @@ main .result h2 {
     font-size: 48px;
 }
 
-/* Grid top */
+/* Grid top and bottom*/
 
 .result .grid-top .col, .result .grid-bottom .col {
     width: 25%;
@@ -339,3 +338,8 @@ main .result h2 {
     margin-top: 15px;
     display: inline-block;
 }
+
+.grid-bottom:last-child img{
+height: 35px;
+}
+
