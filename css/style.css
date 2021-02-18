@@ -205,6 +205,11 @@ main ul li i {
     padding-right: 15px;
 }
 
+.number {
+    font-size: 53px;
+    font-weight: 900;
+}
+
 /* Section 1 Benefit  */
 
 main .benefit {
@@ -320,11 +325,6 @@ main .result h2 {
     margin-bottom: 10px;
 }
 
-.result .number {
-    font-size: 53px;
-    font-weight: 900;
-}
-
 .result .number:after {
     content: "+";
     font-size: 34px;
@@ -339,7 +339,40 @@ main .result h2 {
     display: inline-block;
 }
 
-.grid-bottom:last-child img{
-height: 35px;
+.grid-bottom:last-child img {
+    height: 35px;
 }
 
+/* Section 3 Growth */
+
+main .growth {
+    padding: 6%;
+}
+
+main .growth-sponsor{
+    padding: 6% 0% 6% 20%;
+}
+
+.growth .col.left {
+    width: 30%;
+}
+
+.growth .col.right {
+    width: 70%;
+}
+
+.growth-text {
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.growth-sponsor li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.growth-sponsor img {
+    width: 150px;
+    margin-bottom: 15px;
+}
