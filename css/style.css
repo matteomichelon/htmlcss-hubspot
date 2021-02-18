@@ -53,7 +53,7 @@ body {
 
 .text-block {
     line-height: 35px;
-    font-size: 21px;
+    font-size: 25px;
 }
 
 .margin-bottom-block {
@@ -375,4 +375,22 @@ main .growth-sponsor{
 .growth-sponsor img {
     width: 150px;
     margin-bottom: 15px;
+}
+
+/* Section 4 Begin */
+
+.begin .col.left {
+    width: 50%;
+}
+
+.begin .col.right {
+    width: 50%;
+}
+
+.begin h2{
+    font-size: 50px;
+}
+
+.begin img {
+    width: 350px;
 }
