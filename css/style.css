@@ -21,12 +21,18 @@ body {
     margin: 0 auto;
 }
 
+.container50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .button {
     background-color: #fe775a;
     border-radius: 5px;
-    padding: 8px;
+    padding: 25px 45px;
     color: white;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .blue-text {
@@ -35,6 +41,19 @@ body {
 
 .padding-block {
     padding: 35px 0;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.text-block {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.margin-block {
+    margin-bottom: 40px;
 }
 
 /* Clearfix and cols generiche */
@@ -99,6 +118,10 @@ header .right .login {
     background-color: #fafcfe;
 }
 
+header .right .button {
+    padding: 8px;
+}
+
 header .border-right {
     border-right: 1px solid #899397;
     padding-right: 20px;
@@ -140,24 +163,66 @@ header h1 {
     font-size: 60px;
 }
 
-header p {
-    line-height: 35px;
-    font-size: 20px;
-}
-
 header .jumbotron-button .button {
     padding: 25px 45px;
 }
 
-header .teaser span{
+header .teaser span {
     margin-bottom: 20px;
 }
 
 /* Line Spacing */
 
-.line-spacing{
+.line-spacing {
     height: 100px;
     background-color: #afebe4;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
+
+/* MAIN */
+
+/* Section 1 */
+
+/* Benefit */
+
+main .benefit {
+    background-color: #f4f9fd;
+}
+
+main .benefit .container50 img {
+    width: 50%;
+    margin-top: 0 auto;
+}
+
+/* Feature */
+
+main .feature {
+    background-color: white;
+}
+
+/* Crm */
+
+main .crm-logo {
+    width: 25%;
+    padding: 70px 0;
+    display: inline-block;
+}
+
+main .crm-logo img {
+    width: 40%;
+}
+
+main .crm-report {
+    width: 70%;
+    display: inline-block;
+
+    /* test */
+
+    border: 1px solid black;
+}
+
+main .crm-report li{
+    display: inline-block;
+}
+
