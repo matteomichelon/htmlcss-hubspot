@@ -400,6 +400,7 @@ main .growth-sponsor {
 footer {
     background-color: #32495b;
     color: white;
+    padding: 1% 0;
 }
 
 /* List-footer */
@@ -418,7 +419,7 @@ footer h3 {
 
 .list-footer .col {
     width: 25%;
-    padding: 4% 2%;
+    padding: 2% 2%;
 }
 
 footer .button {
@@ -445,11 +446,18 @@ footer .line {
 
 /* Copyright */
 
-footer .copyright .col{
+footer .copyright .col {
     width: 50%;
-
 }
 
-.copyright .logo{
-    height: 10px;
+.copyright .logo img {
+    width: 20%;
+}
+
+.copyright .logo i {
+    font-size: 85%;
+}
+
+.copyright a {
+    margin-left: 5%;
 }
