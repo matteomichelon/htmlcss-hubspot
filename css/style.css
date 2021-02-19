@@ -16,6 +16,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .container80 {
     width: 80%;
     margin: 0 auto;
@@ -103,6 +110,10 @@ a {
     padding: 20px 0;
 }
 
+.fixed-margin {
+    margin-top: 60px;
+}
+
 header a {
     color: #32495b;
     text-decoration: none;
@@ -134,6 +145,12 @@ header .nav-top-right {
 header .nav-top {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
+}
+
+header .nav-top-left ul li:nth-child(1)::after {
+    content: "";
+    border-right: 3px solid #899397;
+    margin: 0px 15px;
 }
 
 header .nav-top-right .login {
