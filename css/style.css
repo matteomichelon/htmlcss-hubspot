@@ -116,19 +116,19 @@ header nav li {
     display: inline-block;
 }
 
-/* Nav-top */
-
-header .nav-top-left {
-    width: 39%;
+.inline-middle {
     display: inline-block;
     vertical-align: middle;
 }
 
+/* Nav-top */
+
+header .nav-top-left {
+    width: 39%;
+}
+
 header .nav-top-right {
-    display: inline-block;
     width: 60%;
-    vertical-align: middle;
-    text-align: right;
 }
 
 header .nav-top {
@@ -151,14 +151,10 @@ header .nav-top-right .button {
 
 header .logo {
     width: 8%;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 header .nav-bottom .text-right {
-    display: inline-block;
     width: 91%;
-    vertical-align: middle;
 }
 
 header .nav-bottom nav li {
