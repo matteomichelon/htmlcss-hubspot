@@ -57,7 +57,7 @@ body {
 }
 
 .margin-bottom-block {
-    margin-bottom: 60px;
+    margin-bottom: 10%;
 }
 
 .margin-block {
@@ -66,6 +66,14 @@ body {
 
 .color-white {
     background-color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Clearfix and cols generiche */
@@ -195,10 +203,6 @@ header .teaser span {
 /* MAIN */
 
 /* Common Main */
-
-main ul li {
-    list-style: none;
-}
 
 main ul li i {
     color: #fe775a;
@@ -349,7 +353,7 @@ main .growth {
     padding: 6%;
 }
 
-main .growth-sponsor{
+main .growth-sponsor {
     padding: 6% 0% 6% 20%;
 }
 
@@ -366,7 +370,7 @@ main .growth-sponsor{
     font-size: 30px;
 }
 
-.growth-sponsor li{
+.growth-sponsor li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 30px;
@@ -383,10 +387,69 @@ main .growth-sponsor{
     width: 50%;
 }
 
-.begin h2{
+.begin h2 {
     font-size: 50px;
 }
 
 .begin img {
     width: 350px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #32495b;
+    color: white;
+}
+
+/* List-footer */
+
+footer a {
+    color: white;
+}
+
+footer li {
+    margin-bottom: 4%;
+}
+
+footer h3 {
+    font-weight: 900;
+}
+
+.list-footer .col {
+    width: 25%;
+    padding: 4% 2%;
+}
+
+footer .button {
+    padding: 4%;
+    display: inline-block;
+    margin: 4% 0;
+}
+
+footer .icon i {
+    padding: 4% 3%;
+    font-size: 120%;
+}
+
+/* Languages */
+
+footer .languages a {
+    padding-right: 3%;
+}
+
+footer .line {
+    border: 1px solid white;
+    margin: 2% 0;
+}
+
+/* Copyright */
+
+footer .copyright .col{
+    width: 50%;
+
+}
+
+.copyright .logo{
+    height: 10px;
 }
