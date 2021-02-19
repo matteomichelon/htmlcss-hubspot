@@ -229,9 +229,9 @@ main .benefit {
 
 /* Feature */
 
-.border-shadow-block{
+.border-shadow-block {
     border-radius: 2%;
-    box-shadow: 5px 5px 5px 5px #e9eff4;    
+    box-shadow: 5px 5px 5px 5px #e9eff4;
 }
 
 /* Crm */
@@ -285,8 +285,6 @@ main .benefit {
     height: 100px;
 }
 
-/* TODO: capire se è possibile farlo con after e copiare quella nel crm-right */
-
 .benefit-colums .line {
     border-bottom: 3px solid #899397;
     margin: 14% 0;
@@ -301,7 +299,8 @@ main .benefit {
 /* Title */
 
 main .result {
-    background-color: #00b8ab; /* For browsers that do not support gradients */
+    background-color: #00b8ab;
+    /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #00a7bb, #00b9a9);
     color: white;
     padding: 3% 0;
