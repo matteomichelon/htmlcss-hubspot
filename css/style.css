@@ -21,6 +21,13 @@ body {
     margin: 0 auto;
 }
 
+hr {
+    height: 100px;
+    background-color: #afebe4;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
 .container50 {
     width: 50%;
     margin: 0 auto;
@@ -92,7 +99,7 @@ a {
 
 /* Header-Common */
 
-header .padding {
+.header-padding {
     padding: 20px 0;
 }
 
@@ -105,46 +112,39 @@ header a {
     text-align: right;
 }
 
+header nav li {
+    display: inline-block;
+}
+
 /* Nav-top */
+
+header .nav-top-left {
+    width: 39%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .nav-top-right {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    text-align: right;
+}
 
 header .nav-top {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
 }
 
-header .left {
-    width: 20%;
-}
-
-header .right {
-    width: 80%;
-}
-
-header nav li {
-    display: inline-block;
-}
-
-header nav .left li {
-    margin-right: 20px;
-}
-
-header nav .right li, header .nav-bottom nav li {
-    margin-left: 20px;
-}
-
-header .right .login {
+header .nav-top-right .login {
     color: #fe775a;
     border: 1px solid #fe775a;
     background-color: #fafcfe;
 }
 
-header .right .button {
-    padding: 8px;
-}
-
-header .border-right {
-    border-right: 1px solid #899397;
-    padding-right: 20px;
+header .nav-top-right .button {
+    padding: 10px;
+    margin-left: 25px;
 }
 
 /* Nav-bottom */
@@ -161,43 +161,33 @@ header .nav-bottom .text-right {
     vertical-align: middle;
 }
 
+header .nav-bottom nav li {
+    margin-left: 20px;
+}
+
 /* Jumbotron */
 
 header .jumbotron {
     background-image: url(../img/jumbotron.png);
     height: 600px;
+    /* Questa altezza deve rimanere fissa per 
+    l'effetto del background-image */
     background-repeat: no-repeat;
     background-position: 100% 12%;
     background-color: #fef5ef;
-    /* test, da togliere quando abbiamo i margini corretti del testo al suo interno */
-    /* height: 600px; */
 }
 
 header .teaser {
     width: 49%;
-    height: 600px;
 }
 
 header h1 {
     padding-top: 12%;
-    font-size: 60px;
+    font-size: 3vw;
 }
 
 header .jumbotron-button .button {
-    padding: 25px 45px;
-}
-
-header .teaser span {
-    margin-bottom: 20px;
-}
-
-/* Line Spacing */
-
-.line-spacing {
-    height: 100px;
-    background-color: #afebe4;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    padding: 3%
 }
 
 /* MAIN */
@@ -383,7 +373,7 @@ main .growth-sponsor {
 
 /* Section 4 Begin */
 
-.begin{
+.begin {
     margin-bottom: 2%;
 }
 
