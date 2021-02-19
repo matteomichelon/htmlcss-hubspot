@@ -383,6 +383,10 @@ main .growth-sponsor {
 
 /* Section 4 Begin */
 
+.begin{
+    margin-bottom: 2%;
+}
+
 .begin .col.left, .begin .col.right {
     width: 50%;
 }
