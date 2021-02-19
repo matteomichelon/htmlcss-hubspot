@@ -229,6 +229,11 @@ main .benefit {
 
 /* Feature */
 
+.border-shadow-block{
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px 5px #e9eff4;    
+}
+
 /* Crm */
 
 .feature .crm {
