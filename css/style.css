@@ -270,6 +270,11 @@ main .benefit {
     vertical-align: middle;
 }
 
+.benefit .crm .button {
+    margin: 0;
+    text-align: center;
+} 
+
 /* Benefit colums */
 
 .benefit-colums .col {
@@ -289,10 +294,10 @@ main .benefit {
     border-bottom: 3px solid #899397;
     margin: 14% 0;
 }
-
+ 
 .benefit .button {
     margin: 0px 80px;
-}
+} 
 
 /* Section 2 Result */
 
